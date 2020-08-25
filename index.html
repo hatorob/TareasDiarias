@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Tareas</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <header class="cabecera">
+
+        <h1>tareas diarias</h1>
+
+    </header>
+
+    <div class="container-tareas">
+
+        <div class="tareitas"> 
+            <Label form="tarea" class="titulo">Mis tareas=</Label>
+            <form action="#" id="formulario">
+                <label for="tarea"></label>
+                <textarea  id="tarea"></textarea>
+                <input type="submit" value="Agregar" class="boton">
+            </form>
+
+        </div>
+    </div>
+
+
+    <div class="container-history">
+
+        <div class="containerTareas">
+
+            <div class="tareitaas">
+              
+                <h2>Mis tareas pendientes</h2>
+
+                <div id="lista-tareas">
+                    
+                </div>
+
+            </div>
+
+            <div class="tareas-realizadas">
+                <h2>Mis tareas realizadas</h2>
+
+                <div id="lista-tareas-realizadas">
+
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <script src="js/app.js"></script>
+
+
+</body>
+</html>
